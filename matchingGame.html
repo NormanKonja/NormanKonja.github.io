@@ -1,0 +1,30 @@
+<html>
+	<head>
+    <link rel="stylesheet" href="./css/matchingGame.css" />
+	<title>Card Game</title>
+	</head>
+
+	<body onresize="resizeIt()">
+		<!--<form class="options">
+			<h3 id="q"></h3>
+			<br>
+			<input type="text" id="a" value="">
+			<button type="button" onclick="submitForm()">submit</button>
+		</form>-->
+		<div id="complete" class="options">
+
+		</div>
+		<div id="holdall" style="display:flex; flex-direction:column;">
+			<div id="finalq" style="text-align:center; display:none; padding-bottom:15px;">
+				<span id="q" style="font-size:2vw"></span><br/>
+				<input type="text" id="a" value="" style="color:black; text-shadow:none; font-size:2vw;">
+				<button type="button" onclick="submitForm()" style="color:black; text-shadow:none; font-size:2vw;">submit</button>
+			</div>
+			<div id="results" style="text-align:center; display:none;"></div>
+			<div id="wordblock" class="options-container"></div>
+			<div id="boardbkg" class="container pic"></div>
+		<div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="./scripts/matchingGame.js"></script>
+	</body>
+</html>

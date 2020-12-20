@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Norman's Portfolio</title>
+      <link rel="stylesheet" href="./css/index.css" />
+      <link rel="stylesheet" href="./css/all.min.css" />
+      <script src="./scripts/calculator.js" defer></script>
+   </head>
+   <body>
+      <nav>
+         <h2 id="logo">Norman Konja</h2>
+         <ul class="navigation-items">
+            <li class="navigation-item"><a href="#about-me">About Me</a></li>
+            <li class="navigation-item"><a href="#projects">Projects</a></li>
+            <li class="navigation-item"><a href="#skills">Skills</a></li>
+            <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <main>
+         <section id="about-me">
+            <div class="about-me-container">
+               <div class="about-me-text-container">
+                  <h2>About Me</h2>
+                  <p>
+                     Hi! I'm Norman Konja. I am a computer programmer who specializes in 
+                     JavaScript, and Python. I've been programming for about 10 years now.
+                     I feel like I was chosen to do this for a living simply by the way 
+                     I was introduced to coding.
+                  </p>
+                  <p>
+                     The first time I ever laid eyes on computer code I was 14 years old. 
+                     It all started when I was playing a wildly popular game on xbox live,
+                     Call of Duty MW2. I randomly joined a hacked online game that automatically 
+                     unlocked everything in the game for you upon joining it. I was intrigued by
+                     the hacks I was witnessing and wanted to do them myself. So I got to work, 
+                     absorbing all the information I could find on hacking the game. I eventually
+                     found that I could create my own hacks through coding in C++ on a file type 
+                     called a fast file in an IDE called FFviewer. I taught myself C++ through 
+                     online documentation and within a few days I had my own custom hacks. 
+                     One of my custom codes lets you shoot a stealth bomber plane out of your gun, have it
+                     do a 360 in midair and explode with special FX. I used my codes to create an income by
+                     selling an invite to my games for $10 per person on gaming forum websites. I was 14 years old
+                     making $2000 a month selling hacks on a video game. This is what gave me the drive to
+                     continue coding for a living, being able to create something out of nothing but a vision.
+                  </p>
+                  <p>
+                     The reason why I love coding is because I feel like it has a lot of similarities to life
+                     in general. You start off with a goal and you make plans to achieve your goal. Along the
+                     way to the achievement of your goal you will make mistakes and errors that will need to be
+                     taken into account and adjusted to continue further incremental development into the end goal.
+                     It takes a strong person to be a computer programmer because it requires constant change and 
+                     true effort to continue learning and getting better every day. This is the challenging part of 
+                     coding that I love. There's no better feeling in life or in coding than achieving a goal, espcially 
+                     when you get to learn from your experiences on the road to achievement!
+                  </p>
+                  <p>
+                     My interests outside of coding include music, books, cryptocurrency, Jiu Jitsu, investing, learning
+                     , and I have an absolute passion for the stock market. I love gaining knowledge and continuously 
+                     growing in all areas of life. I am a very dedicated person, with a lot of resilience  
+                     that comes from a will to win and I plan on bringing that same energy with me to whatever organization I end up with!
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section id="projects">
+            <h2>Projects</h2>
+            <details class="project">
+               <summary class="project-title">
+                  <h3>Bit-Py</h3>
+               </summary>
+               <p class="project-description">
+                  This python project was built to use bittrex for trading bitcoin and other crypcurrencies from your desktop without having
+                  to sign in or even look at an exchange just buy and sell directly from your python commands.
+                  It's a simple and seamless way to make extremely fast trade execution.
+               </p>
+               <a href="https://github.com/NormanKonja/BitPy" target="_blank">Click Here To Go To Bit-Py Repository</a>
+            </details>
+            <br>
+            <details class="project">
+               <summary class="project-title">
+                  <h3>Box maker</h3>
+               </summary>
+               <p class="project-description">
+                  This is a box maker written in Javascript that I use to help me create games. It tells you the height, width, and area of a box on your webpage.
+               </p>
+               <a href="./boxMaker.html">Click Here To Go To Box Maker</a>
+			   <br><br>
+			   <a href="https://github.com/NormanKonja/Javascript-boxmaker" target="_blank">Click Here To Go To Box Maker Repository</a> 
+            </details>
+            <br>
+            <details class="project">
+               <summary class="project-title">
+                  <h3>Javascript Game Examples</h3>
+               </summary>
+               <p class="project-description">
+                  This is a repository of games that I made at my previous job with Voces Digital. These games were meant to help children learn new languages.
+                  Since I'm not allowed to post the completed files for the games (for obvious reasons) I posted the files with the main logic and the foundation
+                  of the games right before I fully completed them for publishing. Feel free to skim through the codes to get an idea of my coding style and capabilities.
+                  I have also included a link to a live 2 player card matching game that was scrapped.
+               </p>
+               <a href="./matchingGame.html" target="_blank">Click Here To Go To JavaScript Card Matching Game</a>
+               <br><br>
+               <a href="https://github.com/NormanKonja/Game-Examples" target="_blank">Click Here To Go To JavaScript Games Repository</a>
+            </details>
+            <br>
+            <details class="project">
+               <summary class="project-title">
+                  <h3>Calculator</h3>
+               </summary>
+               <p class="project-description">
+                  Simple Javascript Calculator 
+               </p>
+               <div class="calc">
+                  <div id="calc-display">0</div>
+                  <button class="calc-button" id="button-7">7</button>
+                  <button class="calc-button" id="button-8">8</button>
+                  <button class="calc-button" id="button-9">9</button>
+                  <button class="calc-button" id="button-multiply">*</button>
+                  <br>
+                  <button class="calc-button" id="button-4">4</button>
+                  <button class="calc-button" id="button-5">5</button>
+                  <button class="calc-button" id="button-6">6</button>
+                  <button class="calc-button" id="button-divide">/</button>
+                  <br>
+                  <button class="calc-button" id="button-1">1</button>
+                  <button class="calc-button" id="button-2">2</button>
+                  <button class="calc-button" id="button-3">3</button>
+                  <button class="calc-button" id="button-minus">-</button>
+                  <br>
+                  <button class="calc-button" id="button-0">0</button>
+                  <button class="calc-button" id="button-period">.</button>
+                  <button class="calc-button" id="button-equals">=</button>
+                  <button class="calc-button" id="button-plus">+</button>
+                  <br>
+                  <button class="calc-button" id="button-clear">Clear</button>
+               </div>
+            </details>
+            <br>
+         </section>
+         <section id="skills">
+            <h2>My Skills</h2>
+            <div id="skills-container">
+               <i class="fab fa-html5"></i>
+               <i class="fab fa-css3-alt"></i>
+               <i class="fab fa-js"></i>
+               <i class="fab fa-git"></i>
+               <i class="fas fa-terminal"></i>
+               <i class="fab fa-github"></i>
+            </div>
+         </section>
+      </main>
+   </body>
+</html>

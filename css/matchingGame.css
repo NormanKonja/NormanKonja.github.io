@@ -1,0 +1,166 @@
+body{
+	margin: 0px;
+}
+
+.container {
+	width: 80vh;
+	max-width:100%;
+	height: 80vh;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -o-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #afafaf;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.row {
+	-webkit-flex: 5;
+	-moz-flex: 5;
+	-ms-flex: 5;
+	-o-flex: 5;
+	flex: 5;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.square {
+	-webkit-flex: 4;
+	-moz-flex: 4;
+	-ms-flex: 4;
+	-o-flex: 4;
+	flex: 4;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+	-webkit-flex-flow: column wrap;
+	-moz-flex-flow: column wrap;
+	-ms-flex-flow: column wrap;
+	-o-flex-flow: column wrap;
+	flex-flow: column wrap;
+	box-sizing: border-box;
+}
+
+header, footer {
+	color: black;
+	height: 50px;
+	width: 100%;
+}
+
+* {
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+	box-sizing: border-box;
+	font-family: Ubuntu, sans-serif;
+}
+
+html {
+	background: -webkit-linear-gradient(100deg, #772953, #e95420);
+	background: linear-gradient(-10deg, #772953, #e95420);
+	min-height: 100vh;
+	font-size: 18px;
+}
+body{
+	text-align: center;
+}
+.pic{
+	margin: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	outline: 3px solid black;
+	outline-offset: -3px;
+}
+
+.options-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.matchoption{
+	padding: 5px 25px;
+	cursor: pointer;
+	font-size: 1.5em;
+}
+
+#card {
+	transform-style: preserve-3d;
+	transition: transform 1s;
+	text-align: center;
+	width:100%;
+	height:100%;
+}
+
+#card figure {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+
+	display: flex;
+	position: absolute;
+	backface-visibility: hidden;
+	border: 1px solid black;
+}
+
+#card .front {
+	background: white;
+	cursor: pointer;
+	background-image: url('./images/parqueguell.png');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#card .back {
+	background: white;
+	transform: rotateY( 180deg );
+	padding: 10px;
+}
+
+.resize{
+	font-size: 4vw;
+	text-align: center;
+}
+
+.cardtext{
+	width: 100%;
+	max-height: 100%;
+	text-align:center;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: black;
+	text-shadow: none;
+}
+
+#card.flipped {
+	transform: rotateY( 180deg );
+}
+
+.card-container {
+	position: relative;
+	perspective: 800px;
+	display: block;
+}
